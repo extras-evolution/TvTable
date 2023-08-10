@@ -30,6 +30,7 @@ $e = &$modx->Event;
 if ($e->name == 'OnDocFormRender') {
 $output = <<< OUT
 <!-- TvTable -->
+<script src="/manager/media/script/mootools/mootools.js"></script>
 <script type="text/javascript">
 window.ie9=window.XDomainRequest && window.performance; window.ie=window.ie && !window.ie9; /* IE9 patch */
 var TvTable = new Class({
